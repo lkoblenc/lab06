@@ -48,9 +48,9 @@
 
 <footer>CSC 174: Advanced Front-end Web Design and Development</footer>
     
-<?php include "inc/nav.inc"; ?>
-
-<?php include "inc/scripts.inc"; ?>
+<nav>
+	<a href="http://csc174.org/assignment02/manhattan/lab02/index.php">Original Site</a>
+</nav>
 
 </body>
 

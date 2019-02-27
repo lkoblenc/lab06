@@ -1,7 +1,5 @@
-.is-current {
-	background-color: black;
-	color: white;
-}
+body {background-color: DarkSlateGrey;
+      color: lemonchiffon;}
 
 .container
 { margin: 0 auto;
@@ -10,6 +8,8 @@ max-width: 960px;
 display: grid;
 grid-template-columns: 280px 1fr 200px;
 }
+
+aside { color: Aquamarine; }
 
 
 header {
@@ -27,6 +27,7 @@ header h1 {
 	z-index: 100;
 	top: 100px;
 	left: -155px;
+	color: PowderBlue ;
 }
 
 main {grid-column: 1/4;}
@@ -39,11 +40,11 @@ align-self: end; }
 
 nav {grid-column: 2/4;}
 
+nav a { color: gold; }
+
 nav ul { display: flex;
 justify-content: flex-end;
 }
-
-nav li { margin-left: 20px ; }
 
 header {font-family: 'Staatliches', cursive;}
 
@@ -58,7 +59,7 @@ h2 {
    font weight: 800;
    border style: outset;
    border width: thick;
-   color: #696969;
+   color: lime;
 }
 
 div {
